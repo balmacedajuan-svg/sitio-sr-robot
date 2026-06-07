@@ -192,6 +192,28 @@
             margin-bottom: 10px;
         }
 
+        /* Nuevos estilos para los enlaces de redes sociales */
+        .social-container {
+            margin: 20px 0 25px 0;
+        }
+
+        .social-link {
+            font-family: 'Orbitron', sans-serif;
+            color: var(--text-light);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .social-link:hover {
+            color: var(--neon-green);
+            text-shadow: 0 0 8px rgba(57, 255, 20, 0.6);
+        }
+
         /* Botón Flotante de WhatsApp */
         .whatsapp-float {
             position: fixed;
@@ -220,6 +242,7 @@
         @media (max-width: 600px) {
             .logo-text { font-size: 2.2rem; }
             .section-title { font-size: 1.6rem; }
+            .social-link { margin: 10px 10px; display: inline-block; }
         }
     </style>
 </head>
@@ -234,7 +257,7 @@
         <header>
             <div class="logo-text">SR. <span>ROBOT</span></div>
             <p class="tagline">Servicio Técnico Especializado de PC y Notebooks. Soluciones rápidas y transparentes para que tu equipo vuelva a volar.</p>
-            <a href="https://wa.me/5491112345678?text=Hola,%20quiero%20pedir%20un%20presupuesto" class="btn-main">Presupuestar por WhatsApp</a>
+            <a href="https://wa.me/5491158603667?text=Hola,%20quiero%20pedir%20un%20presupuesto" class="btn-main">Presupuestar por WhatsApp</a>
         </header>
 
         <section class="services-section">
@@ -285,8 +308,18 @@
         </div>
 
         <footer>
-            <p><strong>Ubicación:</strong> [Pueyrredon 4565, General San Martin, Pcia de Bs As] </p>
+            <p><strong>Ubicación:</strong> Pueyrredon 4565, General San Martin, Pcia de Bs As</p>
             <p><strong>Horarios:</strong> Lunes a Viernes de 09:30 a 17:00 hs</p>
+            
+            <div class="social-container">
+                <a href="https://www.instagram.com/SRrobot.arg/" target="_blank" rel="noopener noreferrer" class="social-link">
+                    📸 Instagram
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61590241847372" target="_blank" rel="noopener noreferrer" class="social-link">
+                    👥 Facebook
+                </a>
+            </div>
+
             <p>&copy; 2026 Sr. Robot. Todos los derechos reservados.</p>
         </footer>
 
